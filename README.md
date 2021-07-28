@@ -13,3 +13,16 @@
  > composer install
  > php artisan serve
 ```
+
+### For .env file
+
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=mygoogle@gmail.com
+MAIL_PASSWORD=mypassword
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=mygoogle@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
